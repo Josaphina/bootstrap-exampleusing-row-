@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+      .l{
+      	margin-left:36em;
+      	margin-top: 5em;
+       border: 2em solid black;
+       width: 20em;
+       height: 30em;
+       border-top: transparent;
+       border-right:transparent;
+       }
+       @media only screen and (max-width:1200px) {
+  .l {
+        border-left: transparent;
+        border-bottom: transparent;
+        border-top: 2em solid red;
+        border-right:2em  solid red;
+        margin-left: 1em;
+  }
+}
+@media only screen and (max-width:500px) {
+  .l {
+  	   border-left:1em solid black;
+  	   border-right: 1em solid black;
+  	   border-top: 1em solid black;
+  	   border-bottom:1em solid black;
+  	   border-radius: 100%;
+  	   height:10em;
+  	   width: 10em;
+  	   margin-top:4em;
+      }
+    
+
+   .l:hover{
+   	
+        width: 0;
+        height: 0;
+        border: 150px solid transparent;
+        border-radius: 0;
+        border-top: 0;
+        border-bottom: 400px solid green;
+        margin-left: 4em;
+        margin-top: 10em;
+
+      }
+  }
+    
+
+   @media only screen and (max-width:240px){
+   	  .ll{ width: 0;
+        height: 0;
+        border: 150px solid transparent;
+        border-radius: 0;
+        border-top:  400px solid green;
+        border-bottom:0;
+        margin-left:14em;
+        margin-bottom: 10em;
+        transform:translate(-50%,-55%);
+
+
+    }
+   }
+
+
+
+
+		
+	</style>
+</head>
+<body>
+	<div class="l">
+		
+	</div>
+	<div class="ll"></div>
+
+</body>
+</html>
